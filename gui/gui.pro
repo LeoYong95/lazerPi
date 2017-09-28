@@ -12,9 +12,10 @@ TARGET = gui
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    lazerpi.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    lazerpi.h
 
 FORMS    += mainwindow.ui

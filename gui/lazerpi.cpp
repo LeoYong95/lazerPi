@@ -1,9 +1,9 @@
-#include "mainwindow.h"
+#include "lazerpi.h"
 #include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+LazerPi::LazerPi(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::LazerPi)
 {
     ui->setupUi(this);
 
@@ -11,12 +11,12 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
 
-MainWindow::~MainWindow()
+LazerPi::~LazerPi()
 {
     delete ui;
 }
 
-void MainWindow::paintEvent(QPaintEvent* evt) {
+void LazerPi::paintEvent(QPaintEvent* evt) {
 
     QPainter painter(this);
 
@@ -25,7 +25,7 @@ void MainWindow::paintEvent(QPaintEvent* evt) {
     }
 }
 
-void MainWindow::setImage(const QImage& image) {
+void LazerPi::setImage(const QImage& image) {
 
     m_size = image.size();
     m_image = image.scaled(size());

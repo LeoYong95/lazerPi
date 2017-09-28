@@ -1,31 +1,31 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef LAZERPI_H
+#define LAZERPI_H
 
 #include <QMainWindow>
 #include <QPainter>
 
 
 namespace Ui {
-class MainWindow;
+class LazerPi;
 }
 
-class MainWindow : public QMainWindow
+class LazerPi : public QMainWindow
 {
     Q_OBJECT
 
 public:
 
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+    explicit LazerPi(QWidget *parent = 0);
+    ~LazerPi();
 
     void paintEvent(QPaintEvent* evt);
 public slots:
      void setImage(const QImage& image);
 
 private:
-    Ui::MainWindow *ui;
+    Ui::LazerPi *ui;
     QImage m_image;
     QSize m_size;
 };
 
-#endif // MAINWINDOW_H
+#endif // LAZERPI_H
