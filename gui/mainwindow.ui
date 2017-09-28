@@ -206,20 +206,17 @@
       <x>350</x>
       <y>0</y>
       <width>531</width>
-      <height>581</height>
+      <height>583</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
-      <widget class="QGraphicsView" name="graphicsView">
-       <property name="maximumSize">
+      <widget class="QOpenGLWidget" name="openGLWidget">
+       <property name="minimumSize">
         <size>
-         <width>500</width>
+         <width>0</width>
          <height>500</height>
         </size>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
        </property>
       </widget>
      </item>
@@ -236,7 +233,7 @@
          <property name="maximumSize">
           <size>
            <width>300</width>
-           <height>300</height>
+           <height>100</height>
           </size>
          </property>
          <property name="layoutDirection">

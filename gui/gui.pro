@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    lazerpi.cpp
+    lazerpi.cpp \
+    renderarea.cpp
 
 HEADERS  += \
-    lazerpi.h
+    lazerpi.h \
+    renderarea.h
 
 FORMS    += mainwindow.ui

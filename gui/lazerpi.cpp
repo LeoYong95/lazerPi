@@ -1,5 +1,6 @@
 #include "lazerpi.h"
 #include "ui_mainwindow.h"
+#include "renderarea.h"
 
 LazerPi::LazerPi(QWidget *parent) :
     QMainWindow(parent),
@@ -7,9 +8,9 @@ LazerPi::LazerPi(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    renderArea = new RenderArea;
+
 }
-
-
 
 LazerPi::~LazerPi()
 {
