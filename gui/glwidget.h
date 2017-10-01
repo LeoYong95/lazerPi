@@ -1,8 +1,10 @@
 #ifndef GLWIDGET_H
 #define GLWIDGET_H
 
-#include <QObject>
+
 #include <QGLWidget>
+#include <GL/glut.h>
+
 
 class GLWidget : public QGLWidget
 {
@@ -10,7 +12,7 @@ class GLWidget : public QGLWidget
 public:
     explicit GLWidget(QWidget *parent = 0);
     void initializeGL();
-    void paintingGL();
+    void paintGL();
     void resizeGL(int w, int h);
 };
 

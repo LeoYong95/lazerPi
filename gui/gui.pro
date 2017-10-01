@@ -22,4 +22,4 @@ HEADERS  += \
 
 FORMS    += mainwindow.ui
 
-LIBS += -glut
+LIBS += -lglut -lGLU
