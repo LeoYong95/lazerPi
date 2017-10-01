@@ -1,5 +1,6 @@
 #include "glwidget.h"
 
+
 GLWidget::GLWidget(QWidget *parent) : QGLWidget(parent)
 {
 
@@ -7,7 +8,7 @@ GLWidget::GLWidget(QWidget *parent) : QGLWidget(parent)
 
 void GLWidget::initializeGL()
 {
-    glClearColor(0,0,0,1);
+    glClearColor(0.2,0.2,0.2,1);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_LIGHT0);
     glEnable(GL_LIGHTING);

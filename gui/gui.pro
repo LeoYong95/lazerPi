@@ -21,3 +21,5 @@ HEADERS  += \
     glwidget.h
 
 FORMS    += mainwindow.ui
+
+LIBS += -glut
