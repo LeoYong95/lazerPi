@@ -211,10 +211,10 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
-      <widget class="QOpenGLWidget" name="openGLWidget">
+      <widget class="QWidget" name="widget" native="true">
        <property name="minimumSize">
         <size>
-         <width>0</width>
+         <width>100</width>
          <height>500</height>
         </size>
        </property>
