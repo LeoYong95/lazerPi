@@ -15,3 +15,4 @@ LazerPi::~LazerPi()
     delete ui;
 }
 
+

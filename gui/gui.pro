@@ -14,11 +14,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     lazerpi.cpp \
-    glwidget.cpp
+    helper.cpp \
+    widget.cpp
 
 HEADERS  += \
     lazerpi.h \
-    glwidget.h
+    helper.h \
+    widget.h
 
 FORMS    += mainwindow.ui
 

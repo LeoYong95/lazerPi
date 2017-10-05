@@ -10,6 +10,12 @@
     <height>650</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>500</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Lazer Pi</string>
   </property>
@@ -211,7 +217,7 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
-      <widget class="GLWidget" name="widget" native="true">
+      <widget class="Widget" name="widget" native="true">
        <property name="minimumSize">
         <size>
          <width>0</width>
@@ -279,9 +285,9 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>GLWidget</class>
+   <class>Widget</class>
    <extends>QWidget</extends>
-   <header>glwidget.h</header>
+   <header>widget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

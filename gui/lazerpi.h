@@ -2,7 +2,7 @@
 #define LAZERPI_H
 
 #include <QMainWindow>
-
+#include "helper.h"
 
 namespace Ui {
 class LazerPi;
@@ -19,6 +19,8 @@ public:
 
 private:
     Ui::LazerPi *ui;
+    Helper helper;
+
 
 };
 
