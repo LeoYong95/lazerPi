@@ -6,7 +6,7 @@ Widget::Widget(Helper *helper, QWidget *parent)
     : QWidget(parent), helper(helper)
 {
     elapsed = 0;
-    setFixedSize(200, 200);
+    setFixedSize(500, 500);
 }
 
 void Widget::animate()

@@ -18,7 +18,7 @@ Helper::Helper()
 void Helper::paint(QPainter *painter, QPaintEvent *event, int elapsed)
 {
     painter->fillRect(event->rect(), background);
-    painter->translate(0, 0);
+    painter->translate(250, 250);
 
     painter->save();
     painter->setBrush(circleBrush);
