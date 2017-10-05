@@ -218,6 +218,12 @@
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
       <widget class="Widget" name="widget" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
          <width>0</width>

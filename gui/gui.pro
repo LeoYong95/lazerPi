@@ -20,7 +20,8 @@ SOURCES += main.cpp \
 HEADERS  += \
     lazerpi.h \
     helper.h \
-    widget.h
+    widget.h \
+    ui_mainwindow.h
 
 FORMS    += mainwindow.ui
 
